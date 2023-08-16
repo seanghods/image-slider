@@ -23,13 +23,18 @@ body {
 }
 
 .slide img {
-    width: 800px;
-    height: 550px;
+    width: 50%;
     border-radius: 35px;
     margin: 15px;
     margin-bottom: 5px;
     box-shadow: 2px 2px 10px black;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 500px) {
+    .slide img {
+        width: 80%;
+          }
 }
 
 .slide.active {
